@@ -2,7 +2,7 @@
  * 
  */
 var BotU = "HouseOfBots";
-var baseIP = "192.168.1.215:8080";
+var baseIP = "localhost:8080";
 //var baseIP = "localhost";
 var baseURLBIG = "http://" + baseIP + "/"+BotU+"/";
 

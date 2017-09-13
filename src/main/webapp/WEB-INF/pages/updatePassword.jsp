@@ -15,16 +15,16 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
 	name="viewport">
 <!-- Bootstrap 3.3.6 -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/bootstrap.min.css">
 <!-- Font Awesome -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/font-awesome.min.css">
 <!-- Ionicons -->
 
 <!-- Theme style -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/admin.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/skin-blue.min.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/custom.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/responsive.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/admin.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/skin-blue.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/custom.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/responsive.css">
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
 
@@ -45,8 +45,8 @@
 	<div class="container pad_bottom_25 pad_top_25">
 		<div class="col-lg-12">
 			<div class="col-lg-10">
-				<a href="http://192.168.1.215:8080/HouseOfBots/"> <img
-					src="http://192.168.1.215:8080/HouseOfBots/resources/img/logo.png"></a>
+				<a href="http://localhost:8080/xyz/"> <img
+					src="http://localhost:8080/xyz/resources/img/logo.png"></a>
 			</div>
 		</div>
 	</div>

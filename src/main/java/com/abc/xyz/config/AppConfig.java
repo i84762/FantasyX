@@ -6,6 +6,7 @@ import java.util.Properties;
 import javax.xml.transform.Source;
 
 import org.apache.commons.dbcp.BasicDataSource;
+import org.apache.log4j.Logger;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
@@ -48,6 +49,8 @@ import com.fasterxml.jackson.databind.SerializationFeature;
 @Import({ SecurityConfig.class })
 public class AppConfig extends WebMvcConfigurerAdapter
 {
+	private static final Logger logger = Logger.getLogger(AppConfig.class);
+	
 	@Autowired
     private Environment env;
 
@@ -65,8 +68,9 @@ public class AppConfig extends WebMvcConfigurerAdapter
 	@Bean
 	public SessionFactory sessionFactory()
 	{
+		System.out.println("sessions\n\n\n\n");
 		LocalSessionFactoryBuilder builder = new LocalSessionFactoryBuilder(dataSource());
-		builder.scanPackages("com.abc.xyz").addProperties(getHibernateProperties());
+		builder.scanPackages("com.abc.beans.model").addProperties(getHibernateProperties());
 		return builder.buildSessionFactory();
 	}
 	@Bean(name = "dataSource")

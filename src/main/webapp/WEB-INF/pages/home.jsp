@@ -3,7 +3,7 @@
 <%@include file="header.jsp"%>
 <head>
 <title> VF | house of bots</title>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/home.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/home.js" type="text/javascript"></script>
 <script type="text/javascript">
 	$(document).ready(function(e) {
 		h_loadPage();
@@ -74,10 +74,10 @@
 						</div>
 						<!-- <div class="row">
 							<div class="col-md-6 pad_top_25">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp.gif" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/comp.gif" class="img-responsive">
 							</div>
 							<div class="col-md-6 pad_top_25">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp_int.gif" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/comp_int.gif" class="img-responsive">
 							</div>
 						</div> -->
 						<div class="row pad_top_25">
@@ -101,12 +101,12 @@
 							<div class="carousel-inner" role="listbox">
 								<div class="item active">
 									<div class="font16 margin-bottom">FX Buizee Bot</div>
-									<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bott_scrn.png">
+									<img src="http://localhost:8080/xyz/resources/img/bott_scrn.png">
 								</div>
 
 								<div class="item">
 									<div class="font16 margin-bottom">Next FX Buizee Bot</div>
-									<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bott_scrn.png">
+									<img src="http://localhost:8080/xyz/resources/img/bott_scrn.png">
 								</div>
 							</div>
 
@@ -123,12 +123,12 @@
 						</div>
 						<!-- <div class="container">
 							<div class="col-lg-12 text-center">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bott_scrn.png" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/bott_scrn.png" class="img-responsive">
 							</div>
 						</div> -->
 						<div class="col-sm-2">
 							<div class="col-sm-12 ads_min">
-								<!--<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/ads.gif"> -->
+								<!--<img src="http://localhost:8080/xyz/resources/img/ads.gif"> -->
 							</div>
 						</div>
 					</div>

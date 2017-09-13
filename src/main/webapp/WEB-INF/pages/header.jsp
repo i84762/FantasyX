@@ -18,8 +18,8 @@
 <body class="hold-transition skin-blue sidebar-mini">
 
 	<script
-		src="http://192.168.1.215:8080/HouseOfBots/resources/js/bootstrap.min.js"></script>
-	<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/app.js"></script>
+		src="http://localhost:8080/xyz/resources/js/bootstrap.min.js"></script>
+	<script src="http://localhost:8080/xyz/resources/js/app.js"></script>
 	<div class="loader_fade" id="loaderDiv" style="display: block">
 		<div class="loader"></div>
 	</div>
@@ -49,7 +49,7 @@
 			<div class="row top_rel">
 				<div class="col-md-3 pad_top_25">
 					<a href="http://192.168.1.215:8080/HouseOfBots"> <img
-						src="http://192.168.1.215:8080/HouseOfBots/resources/img/logo.png"
+						src="http://localhost:8080/xyz/resources/img/logo.png"
 						class="img-responsive">
 					</a>
 				</div>
@@ -76,7 +76,7 @@
 							<ul class="nav navbar-nav navbar-right">
 								<li class="dropdown"><a href="javascript:void(0);"
 									class="dropdown-toggle sign" data-toggle="dropdown"><img
-										src="http://192.168.1.215:8080/HouseOfBots/resources/img/login.png"></a>
+										src="http://localhost:8080/xyz/resources/img/login.png"></a>
 									<!--sign in -->
 									<ul class="dropdown-menu sign-menu signin border_green_box">
 										<a href="javascript:void(0);" class="close close_custom cross"
@@ -227,21 +227,21 @@
 				<div class="col-lg-8 top_nav_first">
 					<ul class="nav navbar-nav">
 						<!-- <li><a href="categories" class="nav_hover nav_gr">Categories</a></li> -->
-						<li><a href="http://192.168.1.215:8080/HouseOfBots/shoutouts" 
+						<li><a href="http://localhost:8080/xyz/shoutouts" 
 							onclick="showLoader();"
 							class="nav_hover nav_gr login_pop" data-toggle="modal" id = "_header_shoutout">Shoutouts</a></li>
 						<li><a
-							href="http://192.168.1.215:8080/HouseOfBots/topOfTheLot" 
+							href="http://localhost:8080/xyz/topOfTheLot" 
 							onclick = "showLoader();"
 							class="nav_hover nav_gr" id = "_header_topLot">Top of the lot</a></li>
 						<!-- 	<li><a href="compare" class="nav_hover nav_gr">Compare</a></li> -->
 						<li><a
-							href="http://192.168.1.215:8080/HouseOfBots/noteworthy" 
+							href="http://localhost:8080/xyz/noteworthy" 
 							onclick = "showLoader();"
 							class="nav_hover nav_gr" id = "_header_noteworthy">Noteworthy</a></li>
 						<!-- 	<li><a href="compare" class="nav_hover nav_gr">Compare</a></li> -->
 						<li><a
-							href="http://192.168.1.215:8080/HouseOfBots/freshArrivals" 
+							href="http://localhost:8080/xyz/freshArrivals" 
 							onclick = "showLoader();"
 							class="nav_hover nav_gr" id = "_header_fresh">Fresh arrivals</a></li>
 						<!-- 	<li><a href="compare" class="nav_hover nav_gr">Compare</a></li> -->
@@ -396,7 +396,7 @@
 
 						<div class="col-sm-4 none_768">
 							<img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/user.png"
+								src="http://localhost:8080/xyz/resources/img/user.png"
 								width="100">
 						</div>
 						<div class="col-sm-8">
@@ -450,7 +450,7 @@
 					<div class="panel-body">
 						<div class="col-md-4 none_768">
 							<img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/create.png"
+								src="http://localhost:8080/xyz/resources/img/create.png"
 								width="100">
 						</div>
 						<div class="col-md-8">
@@ -500,7 +500,7 @@
 					<div class="panel-body">
 						<div class="col-md-4 none_768">
 							<img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/forget.png"
+								src="http://localhost:8080/xyz/resources/img/forget.png"
 								width="100">
 						</div>
 						<div class="col-md-8">

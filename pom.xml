@@ -1,8 +1,8 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/maven-v4_0_0.xsd">
 	<modelVersion>4.0.0</modelVersion>
-	<groupId>com.vf.botu</groupId>
-	<artifactId>xyz</artifactId>
+	<groupId>com.abc.fantasyx</groupId>
+	<artifactId>FantasyX</artifactId>
 	<packaging>war</packaging>
 	<version>0.0.1-SNAPSHOT</version>
 	<name>Directory Maven Webapp</name>
@@ -21,6 +21,20 @@
 		<jackson.version>1.9.10</jackson.version>
 	</properties>
 	<dependencies>
+		<!-- https://mvnrepository.com/artifact/log4j/log4j -->
+		<dependency>
+			<groupId>log4j</groupId>
+			<artifactId>log4j</artifactId>
+			<version>1.2.17</version>
+		</dependency>
+		<!-- https://mvnrepository.com/artifact/com.googlecode.slf4j-maven-plugin-log/slf4j-maven-plugin-log -->
+<dependency>
+    <groupId>com.googlecode.slf4j-maven-plugin-log</groupId>
+    <artifactId>slf4j-maven-plugin-log</artifactId>
+    <version>1.0.0</version>
+</dependency>
+		
+
 
 		<dependency>
 			<groupId>com.abc.beans</groupId>

@@ -15,7 +15,7 @@
 							<p>You have not Logged in. Please Log in</p>
 
 							<div class="col-sm-4 none_768">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/user.png" width="100">
+								<img src="http://localhost:8080/xyz/resources/img/user.png" width="100">
 							</div>
 							<div class="col-sm-8">
 								<form action="javascript:login(2)">
@@ -66,7 +66,7 @@
 						</div>
 						<div class="panel-body">
 							<div class="col-md-4 none_768">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/create.png" width="100">
+								<img src="http://localhost:8080/xyz/resources/img/create.png" width="100">
 							</div>
 							<div class="col-md-8">
 								<form action="javascript:register(2);">
@@ -115,7 +115,7 @@
 						</div>
 						<div class="panel-body">
 							<div class="col-md-4 none_768">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/forget.png" width="100">
+								<img src="http://localhost:8080/xyz/resources/img/forget.png" width="100">
 							</div>
 							<div class="col-md-8">
 								<form action="javascript:forgotPassword(2)">

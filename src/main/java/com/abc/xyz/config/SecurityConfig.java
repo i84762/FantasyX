@@ -18,6 +18,8 @@ import org.springframework.security.web.authentication.rememberme.JdbcTokenRepos
 import org.springframework.security.web.authentication.rememberme.PersistentTokenRepository;
 import org.springframework.security.web.authentication.rememberme.TokenBasedRememberMeServices;
 
+import com.abc.beans.common.UserRoleEnum;
+
 //import com.abc.xyz.common.UserRoleEnum;
 
 /**
@@ -55,7 +57,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter
 	protected void configure(HttpSecurity http) throws Exception 
 	{
 	    http.authorizeRequests()
-//	    .antMatchers("/1/**").access("hasRole('"+UserRoleEnum.ROLE_USER.getValue()+"')")
+	    .antMatchers("/1/**").access("hasRole('"+UserRoleEnum.ROLE_USER.getValue()+"')")
 	    .and().formLogin()
 	    .loginPage("/login").failureUrl("/login?error")
 		.usernameParameter("email")

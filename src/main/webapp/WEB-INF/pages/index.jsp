@@ -11,21 +11,21 @@
 	content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no"
 	name="viewport">
 <!-- Bootstrap 3.3.6 -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/bootstrap.min.css">
 <!-- Font Awesome -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/font-awesome.min.css">
 <!-- Ionicons -->
 
 <!-- Theme style -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/admin.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/skin-blue.min.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/custom.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/responsive.css">
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/jQuery-2.2.0.min.js"></script>
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/admin.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/skin-blue.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/custom.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/responsive.css">
+<script src="http://localhost:8080/xyz/resources/js/jQuery-2.2.0.min.js"></script>
 
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/index.js" type="text/javascript"></script>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/userOp.js" type="text/javascript"></script>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/botOp.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/index.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/userOp.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/botOp.js" type="text/javascript"></script>
 
 <!--[if lt IE 9]>
   <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
@@ -118,7 +118,7 @@
 		<div class="container">
 			<div class="row top_rel">
 				<div class="col-md-3 pad_top_25">
-					<a href="/BotU/"> <img src="http://192.168.1.215:8080/HouseOfBots/resources/img/logo.png"
+					<a href="/BotU/"> <img src="http://localhost:8080/xyz/resources/img/logo.png"
 						class="img-responsive">
 					</a>
 				</div>
@@ -145,7 +145,7 @@
 							<ul class="nav navbar-nav navbar-right">
 								<li class="dropdown"><a href="#"
 									class="dropdown-toggle sign" data-toggle="dropdown"><img
-										src="http://192.168.1.215:8080/HouseOfBots/resources/img/login.png"></a> <!--sign in -->
+										src="http://localhost:8080/xyz/resources/img/login.png"></a> <!--sign in -->
 									<ul class="dropdown-menu sign-menu signin border_green_box">
 										<a href="#" class="close close_custom cross"
 											aria-label="close">&times;</a>
@@ -377,16 +377,16 @@
 					<div
 						class="col-lg-6 col-lg-offset-3  col-sm-10 col-sm-offset-2 col-md-10 col-sm-offset-1 col-xs-10 col-xs-offset-1 pad_top_25">
 						<div class="text-center pad_top_25">
-							<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/mail.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/twt.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/face.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/slack.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/tele.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/mail.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/twt.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/face.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/slack.png" class="mrg_left_right"> <img
-								src="http://192.168.1.215:8080/HouseOfBots/resources/img/tele.png" class="mrg_left_right">
+							<img src="http://localhost:8080/xyz/resources/img/mail.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/twt.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/face.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/slack.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/tele.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/mail.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/twt.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/face.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/slack.png" class="mrg_left_right"> <img
+								src="http://localhost:8080/xyz/resources/img/tele.png" class="mrg_left_right">
 						</div>
 						<div class="custom-search-input margin_top20">
 							<div class="input-group search">
@@ -484,16 +484,16 @@
 
 							<div class="row margin-bottom">
 								<div class="col-md-6 pad_top_25">
-									<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp.gif" class="img-responsive">
+									<img src="http://localhost:8080/xyz/resources/img/comp.gif" class="img-responsive">
 								</div>
 								<div class="col-md-6 pad_top_25">
-									<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp_int.gif" class="img-responsive">
+									<img src="http://localhost:8080/xyz/resources/img/comp_int.gif" class="img-responsive">
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-2">
 							<div class="col-sm-12 ads_min">
-								<!--<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/ads.gif"> -->
+								<!--<img src="http://localhost:8080/xyz/resources/img/ads.gif"> -->
 							</div>
 						</div>
 
@@ -544,10 +544,10 @@
 						</div>
 						<div class="row">
 							<div class="col-md-6 pad_top_25">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp.gif" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/comp.gif" class="img-responsive">
 							</div>
 							<div class="col-md-6 pad_top_25">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp_int.gif" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/comp_int.gif" class="img-responsive">
 							</div>
 						</div>
 						<div class="row pad_top_25">
@@ -556,18 +556,18 @@
 								<div class="color_dg">
 									<span class="font16">FX Buizee Bot</span> <a
 										class="padd_left20 color_dg">Next Bot <img
-										src="http://192.168.1.215:8080/HouseOfBots/resources/img/arrow.png"></a>
+										src="http://localhost:8080/xyz/resources/img/arrow.png"></a>
 								</div>
 							</div>
 						</div>
 						<div class="container">
 							<div class="col-lg-12 text-center">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bott_scrn.png" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/bott_scrn.png" class="img-responsive">
 							</div>
 						</div>
 						<div class="col-sm-2">
 							<div class="col-sm-12 ads_min">
-								<!--<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/ads.gif"> -->
+								<!--<img src="http://localhost:8080/xyz/resources/img/ads.gif"> -->
 							</div>
 						</div>
 
@@ -586,7 +586,7 @@
 							<div class="col-xs-12">
 								<div class="upload_box">
 									<div class="col-sm-3 text-center pad_top_25">
-										<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bot.png">
+										<img src="http://localhost:8080/xyz/resources/img/bot.png">
 									</div>
 									<div class="col-sm-9 pad_top_60">
 										<form action="javascript:uploadBot();"
@@ -683,10 +683,10 @@
 
 						<div class="row margin-bottom">
 							<div class="col-md-6 pad_top_25">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp.gif" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/comp.gif" class="img-responsive">
 							</div>
 							<div class="col-md-6 pad_top_25">
-								<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp_int.gif" class="img-responsive">
+								<img src="http://localhost:8080/xyz/resources/img/comp_int.gif" class="img-responsive">
 							</div>
 						</div>
 					</div>
@@ -700,11 +700,11 @@
 							<div class="row">
 								<div class="col-md-9">
 									<div class="des_left_img">
-										<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bot.png" id="desc_img" height='242'
+										<img src="http://localhost:8080/xyz/resources/img/bot.png" id="desc_img" height='242'
 											width='242'>
 									</div>
 									<p class="text-left padd_left260 padd_top40">
-										<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/global.png"> <a href="#"
+										<img src="http://localhost:8080/xyz/resources/img/global.png"> <a href="#"
 											id="desc_url" target="_blank" class="bold italic"></a>
 									</p>
 									<h4 class="pad_top_60">Tagline:</h4>
@@ -731,7 +731,7 @@
 												<div class="padd_r50">
 													<!--first review -->
 													<p class="bold pull-left">
-														<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/review.png"> User Name Here
+														<img src="http://localhost:8080/xyz/resources/img/review.png"> User Name Here
 													</p>
 													<p class="pull-right small pad_top_15">August 23, 2016</p>
 													<div class="clearfix"></div>
@@ -745,7 +745,7 @@
 													<hr />
 													<!--second review -->
 													<p class="bold pull-left">
-														<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/review.png"> User Name Here
+														<img src="http://localhost:8080/xyz/resources/img/review.png"> User Name Here
 													</p>
 													<p class="pull-right small pad_top_15">August 23, 2016</p>
 													<div class="clearfix"></div>
@@ -754,7 +754,7 @@
 													<hr />
 													<!--third review -->
 													<p class="bold pull-left">
-														<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/review.png"> User Name Here
+														<img src="http://localhost:8080/xyz/resources/img/review.png"> User Name Here
 													</p>
 													<p class="pull-right small pad_top_15">August 23, 2016</p>
 													<div class="clearfix"></div>
@@ -764,7 +764,7 @@
 													<hr />
 													<!--fourth review -->
 													<p class="bold pull-left">
-														<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/review.png"> User Name Here
+														<img src="http://localhost:8080/xyz/resources/img/review.png"> User Name Here
 													</p>
 													<p class="pull-right small pad_top_15">August 23, 2016</p>
 													<div class="clearfix"></div>
@@ -810,10 +810,10 @@
 									<h5 class="bold">SHARE</h5>
 									<hr class="no-padding no-margin">
 									<div class="pad_top_5">
-										<a href="#"><img src="http://192.168.1.215:8080/HouseOfBots/resources/img/share_twt.png"></a>
+										<a href="#"><img src="http://localhost:8080/xyz/resources/img/share_twt.png"></a>
 									</div>
 									<div class="pad_top_5">
-										<a href="#"><img src="http://192.168.1.215:8080/HouseOfBots/resources/img/share_fb.png"></a>
+										<a href="#"><img src="http://localhost:8080/xyz/resources/img/share_fb.png"></a>
 									</div>
 									<h5 class="bold pad_top_15">RATE THIS BOT</h5>
 									<hr class="no-padding no-margin">
@@ -847,17 +847,17 @@
 									<div class="row">
 										<div class="mid_block">
 											<div class="img_block text-center">
-												<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/img2.png" class="v_top"><i
+												<img src="http://localhost:8080/xyz/resources/img/img2.png" class="v_top"><i
 													class="fa fa-info margin_left color_green font20"
 													aria-hidden="true"></i>
 											</div>
 											<div class="txt_block">
 												<div class="font16 txt_cap">FX Buizee Bot</div>
 												<div class="res_center">
-													<a href="#"><img src="http://192.168.1.215:8080/HouseOfBots/resources/img/mail_grey.png"></a><a
-														href="#"><img src="http://192.168.1.215:8080/HouseOfBots/resources/img/twt_grey.png"
+													<a href="#"><img src="http://localhost:8080/xyz/resources/img/mail_grey.png"></a><a
+														href="#"><img src="http://localhost:8080/xyz/resources/img/twt_grey.png"
 														class="mrg_left_right"></a><a href="#"><img
-														src="http://192.168.1.215:8080/HouseOfBots/resources/img/face_grey.png"></a>
+														src="http://localhost:8080/xyz/resources/img/face_grey.png"></a>
 												</div>
 											</div>
 										</div>
@@ -872,16 +872,16 @@
 							<div class="row" id="desc_relatedBot"></div>
 							<div class="row pad_top_60 pad_bott_60">
 								<div class="col-md-6 pad_top_25">
-									<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp.gif" class="img-responsive">
+									<img src="http://localhost:8080/xyz/resources/img/comp.gif" class="img-responsive">
 								</div>
 								<div class="col-md-6 pad_top_25">
-									<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp_int.gif" class="img-responsive">
+									<img src="http://localhost:8080/xyz/resources/img/comp_int.gif" class="img-responsive">
 								</div>
 							</div>
 						</div>
 						<div class="col-sm-2">
 							<div class="col-sm-12 ads_min">
-								<!--<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/ads.gif"> -->
+								<!--<img src="http://localhost:8080/xyz/resources/img/ads.gif"> -->
 							</div>
 						</div>
 						<div class="clearfix"></div>
@@ -903,20 +903,20 @@
 
 				<!-- <div class="row">
 					<div class="col-md-6 pad_top_25">
-						<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp.gif" class="img-responsive">
+						<img src="http://localhost:8080/xyz/resources/img/comp.gif" class="img-responsive">
 					</div>
 					<div class="col-md-6 pad_top_25">
-						<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/comp_int.gif" class="img-responsive">
+						<img src="http://localhost:8080/xyz/resources/img/comp_int.gif" class="img-responsive">
 					</div>
 				</div>
 				<div class="container">
 					<div class="col-lg-12 text-center">
-						<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/bott_scrn.png" class="img-responsive">
+						<img src="http://localhost:8080/xyz/resources/img/bott_scrn.png" class="img-responsive">
 					</div>
 				</div>
 				<div class="col-sm-2">
 					<div class="col-sm-12 ads_min">
-						<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/ads.gif">
+						<img src="http://localhost:8080/xyz/resources/img/ads.gif">
 					</div>
 				</div> -->
 			</section>
@@ -933,7 +933,7 @@
 	<footer class="bg_footer">
 		<div class="container">
 			<div class="col-lg-12 footer_ad text-center ads_bottom">
-				<!--<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/ads2.gif"> -->
+				<!--<img src="http://localhost:8080/xyz/resources/img/ads2.gif"> -->
 			</div>
 			<div class="col-sm-12 margin_left_nav">
 				<ul class="footer_nav">
@@ -1062,8 +1062,8 @@
 		</div>
 	</div>
 
-	<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/bootstrap.min.js"></script>
-	<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/app.js"></script>
+	<script src="http://localhost:8080/xyz/resources/js/bootstrap.min.js"></script>
+	<script src="http://localhost:8080/xyz/resources/js/app.js"></script>
 
 
 
@@ -1094,7 +1094,7 @@
 						<p>You have not Logged in. Please Log in</p>
 
 						<div class="col-sm-4 none_768">
-							<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/user.png" width="100">
+							<img src="http://localhost:8080/xyz/resources/img/user.png" width="100">
 						</div>
 						<div class="col-sm-8">
 							<form action="javascript:login(2)">
@@ -1145,7 +1145,7 @@
 					</div>
 					<div class="panel-body">
 						<div class="col-md-4 none_768">
-							<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/create.png" width="100">
+							<img src="http://localhost:8080/xyz/resources/img/create.png" width="100">
 						</div>
 						<div class="col-md-8">
 							<form action="javascript:register(2);">
@@ -1193,7 +1193,7 @@
 					</div>
 					<div class="panel-body">
 						<div class="col-md-4 none_768">
-							<img src="http://192.168.1.215:8080/HouseOfBots/resources/img/forget.png" width="100">
+							<img src="http://localhost:8080/xyz/resources/img/forget.png" width="100">
 						</div>
 						<div class="col-md-8">
 							<form action="javascript:forgotPassword(2)">

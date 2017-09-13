@@ -3,23 +3,23 @@
 <meta name="_csrf_header" content="${_csrf.headerName}" />
 
       
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/bootstrap.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/bootstrap.min.css">
 <!-- Font Awesome -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/font-awesome.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/font-awesome.min.css">
 <!-- Ionicons -->
 <!-- Theme style -->
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/admin.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/skin-blue.min.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/custom.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/responsive.css">
-<link rel="stylesheet" href="http://192.168.1.215:8080/HouseOfBots/resources/css/animate.css">
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/jQuery-2.2.0.min.js"></script>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/index.js" type="text/javascript"></script>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/userOp.js" type="text/javascript"></script>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/core/js/botOp.js" type="text/javascript"></script>
-<link href="http://192.168.1.215:8080/HouseOfBots/resources/css/custom_Scrollbar.css" rel="stylesheet">
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/custom_Scrollbar.js" type="text/javascript"></script>
-<script src="http://192.168.1.215:8080/HouseOfBots/resources/js/wow.min.js"></script>
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/admin.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/skin-blue.min.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/custom.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/responsive.css">
+<link rel="stylesheet" href="http://localhost:8080/xyz/resources/css/animate.css">
+<script src="http://localhost:8080/xyz/resources/js/jQuery-2.2.0.min.js"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/index.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/userOp.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/core/js/botOp.js" type="text/javascript"></script>
+<link href="http://localhost:8080/xyz/resources/css/custom_Scrollbar.css" rel="stylesheet">
+<script src="http://localhost:8080/xyz/resources/js/custom_Scrollbar.js" type="text/javascript"></script>
+<script src="http://localhost:8080/xyz/resources/js/wow.min.js"></script>
               <script>
               new WOW().init();
               </script>
