@@ -185,4 +185,10 @@ public class UserServiceImpl implements UserService
 		User user = userDao.findByID(id);
 		return token.equals(user.getPasswordResetToken());
 	}
+
+	@Override
+	public UserView findByCredentials(String loginId, String password)
+	{
+		return userMapper.getMappedView(userDao.findByCredentials(loginId, password));
+	}
 }

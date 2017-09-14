@@ -20,6 +20,7 @@ public interface UserService extends UserDetailsService, CoreService<UserView,
 {
 	UserView findByUserName(String username);
 	UserView findByEmail(String email);
+	UserView findByCredentials(String loginId, String password);
 	
 	long addUser(UserView userView);
 	void createPasswordResetTokenForUser(UserView userView, String token);

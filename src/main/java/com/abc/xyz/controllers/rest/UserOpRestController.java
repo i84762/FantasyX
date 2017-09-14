@@ -4,8 +4,8 @@ import java.util.HashMap;
 import java.util.Map;
 
 import javax.servlet.http.HttpServletRequest;
-import javax.servlet.http.HttpServletResponse;
 
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;
@@ -18,10 +18,12 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.ModelAndView;
 
+import com.abc.beans.common.RestMessage;
 import com.abc.beans.dto.UserView;
 import com.abc.xyz.config.Resource;
 import com.abc.xyz.controllers.rest.workers.UserOpRest;
 import com.abc.xyz.service.UserService;
+import com.google.common.base.Strings;
 
 /**
  * 
@@ -29,9 +31,10 @@ import com.abc.xyz.service.UserService;
  * 
  */
 @RestController
-@RequestMapping(value = "/3")
 public class UserOpRestController 
 {
+	private static final Logger logger = Logger.getLogger(UserOpRestController.class);
+	
 	@Autowired
 	private UserOpRest userOp;
 	
@@ -59,24 +62,35 @@ public class UserOpRestController
 				return new ResponseEntity<>(modelAndView.getModel(), HttpStatus.OK);
 		return new ResponseEntity<>(modelAndView.getModel(), HttpStatus.BAD_REQUEST);		
 	}
-	@RequestMapping(value = "/login", method = RequestMethod.POST)
-	public ResponseEntity<?> loginPost(@RequestBody UserView userView,
-										@RequestParam(name = "rememberMe") boolean rememberMe,
-											HttpServletRequest request,
-											HttpServletResponse response)
+	@RequestMapping(value = "/login")
+	public ResponseEntity<RestMessage<UserView>> login(@RequestParam String loginId, @RequestParam String password)
 	{	
-		System.out.println("\n\n\n\n\n\n"+userView);
-		Map<String,String> responseMap = new HashMap();
-			try 
-			{			
-				userOp.login(userView, request, response, rememberMe);
-				return new ResponseEntity<>(userService.getCurrentUser().getUsername(), HttpStatus.OK);
-			} 
-			catch (Exception e) 
+		UserView userView = null;
+		String message;
+		HttpStatus status;
+		
+			if(Strings.isNullOrEmpty(loginId) || Strings.isNullOrEmpty(password))
 			{
-				responseMap.put("email", e.getMessage());
-				return new ResponseEntity<>(responseMap, HttpStatus.BAD_REQUEST);
+				message = "Login id and password required";
+				status = HttpStatus.BAD_REQUEST;
 			}
+		userView = userOp.login(loginId, password);
+			if(userView == null)
+			{
+				message = "Login failed";
+				status = HttpStatus.NOT_FOUND;
+			}
+			else
+			{
+				message = "Login success";
+				status = HttpStatus.OK;
+			}
+		RestMessage<UserView> restMessage = RestMessage.create(userView)
+														.setData(userView)
+														.setMessage(message)
+														.setStatus(status);
+		logger.debug(restMessage);
+		return new ResponseEntity<RestMessage<UserView>>(restMessage, status);
 	}
 	
 	private Map<String, String> getMapFromBindingResult(BindingResult result)

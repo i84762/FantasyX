@@ -8,6 +8,7 @@ import com.abc.beans.model.User;
 public interface UserDao extends CoreDao<User>
 {
 	User findByUserName(String username);
+	User findByCredentials(String loginId, String password);
 	User findByEmail(String email);	
 	void enableUser(UserView userView, boolean value);
 }
